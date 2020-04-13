@@ -1,9 +1,8 @@
 package com.octest.beans;
 
-public class Auteur {
+public class Utilisateur {
 	private String nom;
 	private String prenom;
-	private boolean actif;
 
 	public String getNom() {
 		return nom;
@@ -17,11 +16,4 @@ public class Auteur {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	public boolean isActif() {
-		return actif;
-	}
-	public void setActif(boolean actif) {
-		this.actif = actif;
-	}
-
 }
